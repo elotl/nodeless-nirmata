@@ -78,7 +78,7 @@ Your Nodeless k8s cluster is now fully managed by Nirmata!
 
 ![alt text](https://github.com/elotl/nodeless-nirmata/blob/master/nirmata-create-cluster-complete.png "Create Cluster Complete")
 
-### Step 3: Deploy Nginx workload, manage via Nirmata dasboard
+### Step 3: Deploy Nginx workload, manage via Nirmata dashboard
 
 Deploy Nginx deployment with 3 replicas.
 
@@ -90,10 +90,11 @@ $ kubectl create -f nginx.yaml
 
 All 3 replicas of Nginx will be deployed in a Nodeless fashion - just-in-time, right-sized, cost-effective compute will be started for each of the replicas, and the pods will be dispatched to the compute cells.
 
-Nginx replicas can be visualized through Nirmata dashboard.
+Nginx pods can be visualized through Nirmata dashboard.
 
 ![alt text](https://github.com/elotl/nodeless-nirmata/blob/master/nirmata-nginx-overview.png "Nginx Deployment overview")
 
+![alt text](https://github.com/elotl/nodeless-nirmata/blob/master/nirmata-nginx-details.png "Nginx pod details")
 
 ### Teardown
 
